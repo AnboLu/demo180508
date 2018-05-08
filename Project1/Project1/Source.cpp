@@ -13,11 +13,11 @@ int main() {
 
 	PairOfDice dice;
 
-	for (int i = 0; i < 100; i++) {
+	for (int i = 0; i < 1000; i++) {
 		std::cout << dice.roll() << " ";
 		if (dice.isGoToJail()) {
 		
-			std::cout << "\nGoToJail\n";
+			std::cout << "\n\nGoToJail\n\n";
 		}
 	}
 
